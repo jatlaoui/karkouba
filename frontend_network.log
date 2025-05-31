@@ -1,0 +1,35 @@
+nohup: ignoring input
+
+> react_repo@0.0.0 dev
+> npm install && vite
+
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'pdfjs-dist@5.2.133',
+npm WARN EBADENGINE   required: { node: '>=20.16.0 || >=22.3.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.0', npm: '9.2.0' }
+npm WARN EBADENGINE }
+
+up to date, audited 503 packages in 1s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+  VITE v6.3.5  ready in 244 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.17.132.90:5173/
+7:17:28 PM [vite] vite.config.ts changed, restarting server...
+Port 8080 is in use, trying another one...
+7:17:28 PM [vite] server restarted.
+
+  ➜  Local:   http://localhost:8081/
+  ➜  Network: http://172.17.132.90:8081/
+7:17:33 PM [vite] vite.config.ts changed, restarting server...
+7:17:33 PM [vite] server restarted.
