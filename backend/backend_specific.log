@@ -1,0 +1,3 @@
+nohup: ignoring input
+MongoDB connection skipped - running in demo mode
+Backend server listening at http://172.17.132.90:3002

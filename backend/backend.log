@@ -1,0 +1,23 @@
+nohup: ignoring input
+
+> backend@1.0.0 start
+> tsc && node dist/server.js
+
+MongoDB connection failed, running in demo mode without database: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+Backend server listening at http://0.0.0.0:3002
+MongooseError: Operation `projects.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/workspace/novel_writer_app/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+MongooseError: Operation `userapikeys.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/workspace/novel_writer_app/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+MongooseError: Operation `projects.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/workspace/novel_writer_app/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+MongooseError: Operation `userapikeys.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/workspace/novel_writer_app/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
